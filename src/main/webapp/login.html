@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+<section id="body">
+    <div id="part1">
+        <h1 style="font-size: 50px; color: black; font-weight: bolder; text-shadow: 10px 10px 10px white;">WELCOME To Todo APP</h1>
+    </div>
+    <div id="box">
+        <fieldset>
+    <form action="login" method="post">
+<table>
+   
+<tr>
+    <td><label for="email">Email:</label>
+    <td><input type="text" name="email" id="" placeholder="Enter the email" required="*"></td>
+</tr>
+<tr>
+    <td>
+        <label for="Password">Password:</label>
+    </td>
+    <td>
+        <input type="password" name="Password" id="" placeholder="Enter the password" required="*">
+    </td>
+</tr>
+<tr>
+    <td><input type="submit" value="loginin"></td>
+    <td><input type="reset" name="" id="" value="cancel"></td>
+</tr>
+<tr>
+    <td><center><a href="signup.html">New? click here to signup</a></center></td>
+</tr>
+</table>
+
+    </form>
+</fieldset>
+</div>
+</section>
+<style>
+    body{
+    margin: 0px;
+}
+#body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1529539795054-3c162aab037a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#part1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    /* top: 150px; */
+    justify-content: center;
+}
+h1{
+    position: absolute;
+    top: 150px;
+}
+label{
+    font-weight: bolder;
+    font-size: 30px;
+}
+input{
+    font-weight: bolder;
+    font-size: 20px;
+}
+#box{
+    /* border: 1px solid black; */
+     width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+}
+fieldset{
+    font-weight: bolder;
+    width: fit-content;
+    height: fit-content;
+}
+</style>
+</body>
+</html>

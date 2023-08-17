@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<section id="body">
+    <div id="part1">
+        <h1>SIGN UP</h1>
+        <h2>Enter details</h2>
+    </div>
+    <div id="box">
+        <form action="signup" method="post">
+            <fieldset style="width: fit-content">
+            <table>
+            <tr>
+            <td>
+            <label for="name">Name</label>
+            </td>
+            <td><input type="name" name="name" placeholder="Enter the name"></td>
+             </tr>
+            <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="email" name="email"placeholder="Enter the email"></td>
+             </tr>
+             <tr> 
+               <td><label for="Password">Password:</label></td>
+               <td> <input type="password" name="Password" placeholder="Enter the password"></td>
+               </tr>
+            <tr>
+            <td>
+            <label for="number">Mobile:</label>
+            </td>
+            <td><input type="number" name="number" id="" placeholder="Enter the number"></td>
+             </tr>
+            <tr>
+            <td>
+            <label for="gender">Gender</label>
+            </td>
+            <td><input type="radio" name="gender" value="Male">Male<input type="radio" name="gender" value="Female">Female<input type="radio" name="gender" value="Other">Other</td>
+             </tr>
+             <tr>
+             <td>
+             <label for="DOB">DOB:</label>
+             </td>
+             <td> <input type="date" name="DOB"></td>
+             </tr>
+             <tr>
+             <td><label for="addr">Address</label></td>
+             <td><textarea name="addr"cols="30" rows="10" placeholder="Enter the Address"></textarea></td>
+             </tr>
+             
+                <tr>
+                    <td><label for="lang">LANGUAGES</label></td>
+                    <td><input type="checkbox" name="lang" id="" value="English">ENGLISH<input type="checkbox" name="lang" id="" value="KANNADA">KANNADA</td>
+                </tr>
+             <tr>
+            <td><input type="submit" value="submit"></td><td><input type="reset" value="cancel"></td> 
+             </tr>
+             <tr>
+                <td>
+                    <a href="login.html">Already have a account</a>
+                </td>
+             </tr>
+            </table>
+            
+            </fieldset>
+            
+            </form>
+            
+    </div>
+</section>
+<style>
+body{
+    margin: 0px;
+}
+#body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#part1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    /* top: 150px; */
+    justify-content: center;
+}
+h1{ font-size: 55px;
+    position: absolute;
+    top: 150px;
+    font-weight: bolder;
+    text-shadow:10px 10px 10px white;
+}
+h2{
+    font-size: 45px;
+    position: absolute;
+    top: 240px;
+    font-weight: bolder;
+    text-shadow:10px 10px 10px white;
+}
+label{
+    color: black;
+    text-shadow:10px 10px 10px white; 
+    font-weight: bolder;
+    font-size: 25px;
+}
+input{
+    font-weight: bolder;
+    font-size: 20px;
+}
+#box{
+    /* border: 1px solid black; */
+     width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+}
+fieldset{
+    font-weight: bolder;
+    width: fit-content;
+    height: fit-content;
+}
+</style>
+
+</body>
+</html>
